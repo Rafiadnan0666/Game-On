@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 4800000, guid: bf4a92757d9ea784baf054f6b51ad680, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL DYNAMICLIGHTMAP_ON FOG_EXP LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+          UNITY_HDR_ON
+        passType: 4
+      - keywords: DIRECTIONAL DYNAMICLIGHTMAP_ON FOG_EXP LIGHTMAP_ON UNITY_HDR_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP LIGHTMAP_ON LIGHTPROBE_SH UNITY_HDR_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP UNITY_HDR_ON
+        passType: 4
+      - keywords: DYNAMICLIGHTMAP_ON FOG_EXP UNITY_HDR_ON
+        passType: 4
+      - keywords: FOG_EXP LIGHTMAP_ON UNITY_HDR_ON
+        passType: 4
+      - keywords: FOG_EXP LIGHTMAP_SHADOW_MIXING UNITY_HDR_ON
+        passType: 4
+      - keywords: FOG_EXP LIGHTPROBE_SH UNITY_HDR_ON
+        passType: 4
